@@ -1,4 +1,4 @@
-# lists in python
+############ Lists in python ##############
 # Keep a list of objects ny INDEX
 
 # To declare a list use []. Separate objects using ,
@@ -32,3 +32,33 @@ print(crazy_x_landlord)
 crazy_x_landlord.pop(0)
 print(crazy_x_landlord)
 
+# Lists can contain anything. Any objects
+#   they can contain string, int, objcts, lists, dictionary
+
+combined_list = [1, '10', 'ten', True, crazy_x_landlord]
+
+# List slicing:
+#   is used to manage lists
+
+# prints from third index to the end
+print(combined_list[3:])
+
+# prints from 3rd index to the start
+# but not inclusive of the last
+print(combined_list[:3])
+
+# prints from specified index until specified index
+# but not inclusive of the last
+print(combined_list[0:3])
+
+# Skips slicing - uses :: and returns from the first index
+# and skips every nth index on: [x::n]
+print(combined_list[0::3])
+
+########## TUPLES - Immutable lists ############
+# behave the same way, accessed via index, defined with ()
+mortal_enemies = ('HELLO KITTY', 'SAILOR MOON', 'CAPTAIN AMERICA', 'EYEPATCH MORTY')
+
+print(type(mortal_enemies))
+
+mortal_enemies[1] = 'Goku'
