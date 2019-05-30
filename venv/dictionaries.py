@@ -49,3 +49,10 @@ print(keys)
 
 values = crazy_cruella.values()
 print(values)
+
+# Iterating over a hash/dictionary
+#   using a for loop
+
+# When we iterate over a dictionary we get individual keys
+for placeholder in crazy_cruella:
+    print(placeholder, ":" ,crazy_cruella[placeholder])
