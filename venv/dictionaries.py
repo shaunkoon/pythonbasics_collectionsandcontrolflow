@@ -35,7 +35,17 @@ crazy_cruella['skills'].append('Business Skills')
 print(crazy_cruella['skills'])
 
 # Adding a new key: values
-#      Same as editing
+#      Same as editing - if ti dosent exit it it creates it
+crazy_cruella['favourite_colour'] = 'Black and White'
+print(crazy_cruella['favourite_colour'])
 
-crazy_cruella
+# Useful methods for dictionaries
+#   Getting all the keys out
 
+keys = crazy_cruella.keys()
+print(keys)
+
+#   Getting values
+
+values = crazy_cruella.values()
+print(values)
