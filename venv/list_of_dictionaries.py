@@ -41,9 +41,10 @@ list_evil_ppl.append(tmay)
 
 print(len(list_evil_ppl))
 
-
+#
 print(list_evil_ppl[3])
 
-
-
 print(list_evil_ppl[3]['address'])
+
+for obj in list_evil_ppl:
+    print('name:', obj['name'])
